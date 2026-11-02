@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSE 391 Assignment 2</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Website Header -->
+
+    <header>
+
+        <h1>CSE 391 Assignment 2</h1>
+
+        <p>JavaScript Programming</p>
+
+    </header>
+
+
+    <!-- Navigation Menu -->
+
+    <nav>
+
+        <a href="#fortune">Fortune Generator</a>
+
+        <a href="#stopwatch">Stopwatch</a>
+
+        <a href="#todo">To-Do List</a>
+
+    </nav>
+
+
+    <!-- Main Content -->
+
+    <main>
+
+        <!-- Task 1: Fortune Generator -->
+
+        <section id="fortune">
+
+            <h2>Fortune Generator</h2>
+
+            <p>Click the button to discover your fortune!</p>
+
+            <div id="fortuneBox">
+
+                <p id="fortuneText">
+                    Your fortune will appear here.
+                </p>
+
+            </div>
+
+            <div class="fortune-buttons">
+
+                <button id="fontColorButton">
+                    Change Font Color
+                </button>
+
+                <button id="backgroundButton">
+                    Change Background
+                </button>
+
+                <button id="borderButton">
+                    Change Border
+                </button>
+
+                <button id="fontStyleButton">
+                    Change Font Style
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Task 2: Stopwatch -->
+
+        <section id="stopwatch">
+
+            <h2>Stopwatch</h2>
+
+            <p>
+                Time:
+                <span id="timer">0</span>
+                seconds
+            </p>
+
+            <button id="startButton">Start</button>
+
+            <button id="stopButton">Stop</button>
+
+            <button id="resetButton">Reset</button>
+
+        </section>
+
+
+        <!-- Task 3: To-Do List -->
+
+        <section id="todo">
+
+            <h2>To-Do List</h2>
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task"
+            >
+
+            <button id="addButton">Add Task</button>
+
+            <ul id="taskList"></ul>
+
+        </section>
+
+    </main>
+
+
+    <!-- Website Footer -->
+
+    <footer>
+
+        <p>CSE 391 - BRAC University</p>
+
+    </footer>
+
+
+    <!-- JavaScript Files -->
+
+    <script src="js/fortune.js"></script>
+
+    <script src="js/stopwatch.js"></script>
+
+    <script src="js/todo.js"></script>
+
+</body>
+
+</html>
