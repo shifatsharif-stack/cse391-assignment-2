@@ -1,0 +1,101 @@
+/* Basic page styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+}
+
+
+/* Header section */
+
+header {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* Navigation section */
+
+nav {
+    background-color: #222222;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+/* Main content */
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+
+/* Assignment sections */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+
+/* Headings */
+
+h2 {
+    color: #111111;
+}
+
+
+/* Buttons */
+
+button {
+    background-color: #111111;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #444444;
+}
+
+
+/* Input field */
+
+input {
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
